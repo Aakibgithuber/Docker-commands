@@ -1,0 +1,27 @@
+1.docker images → // give all the images present in your machine
+
+2.docker search ubuntu → // search whether the image of ubuntu is present locally and if not present then it pull it from docker hub
+
+3.docker pull ubuntu → pull image from docker hub
+
+4.service docker start → checks whether service is start or not
+
+5.docker start <container name> → start the container
+
+6.exit → to exit from container
+
+7.docker attach <container name > → to go inside a running container
+
+8.docker ps -a →to see all the containers
+
+9.docker ps → to see only running containers
+
+10.docker run -it  - name <container name> <image name> /bin /bash →to give name to a container
+
+11.docker stop <container name> → to stop running container
+
+12.docker rm < container name > → to delete a container
+
+13. docker info --> check status
+
+14.cat /etc/os-release --> to check the version of linux in your container
