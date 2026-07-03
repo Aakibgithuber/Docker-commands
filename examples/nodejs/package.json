@@ -1,0 +1,10 @@
+{
+  "name": "docker-nodejs-example",
+  "version": "1.0.0",
+  "description": "Minimal Node.js app demonstrating a production-grade Dockerfile",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}
