@@ -1,0 +1,7 @@
+vendor
+Dockerfile
+.dockerignore
+.git
+.gitignore
+*.md
+.env

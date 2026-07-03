@@ -1,0 +1,9 @@
+out
+target
+*.jar
+Dockerfile
+.dockerignore
+.git
+.gitignore
+*.md
+.env
