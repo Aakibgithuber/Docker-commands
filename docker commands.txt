@@ -25,13 +25,13 @@
 13. docker info --> check status
 
 14.cat /etc/os-release --> to check the version of linux in your container
-15. docker diff aakib container update_image
-16. docker commit new_container updated_image
-17. docker build -t myimge .
+15. docker dif aakib container update_image
+16. docker commt new_container updated_image
+17. docker build - myimge .
 18. docker run -it --name container2 --privileged = true --volumes-from container1 ubuntu /bin/bash #sharing colume along containers
 19. docker run -it --name container3 -v /volume2 ubuntu /bin/bash  #creating volume using command 
 20. docker run -it --name hostcont -v /home/ec2-user: /rajput --privileged = true ubuntu /bin/bash
-21. docker volume ls
+21. docker vol ls
 22. docker volume create <volume_name>
 23. docker volume rm <volume_name>
 24. docker volume prune
